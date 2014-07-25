@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+void main()
+{
+	float chislo;
+	float Kvadrat_chisla;
+	cout << "\t\t\t\tVvedite chislo: ";
+	cin >> chislo;
+	cout << "\n";
+	Kvadrat_chisla = chislo*chislo;
+	cout << "\t\t\t\tKvadrat_chisla:" << Kvadrat_chisla << "\n\n";
+}
