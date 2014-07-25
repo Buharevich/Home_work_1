@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+void main()
+{
+	float Belarussian_Rubl;
+	float Dollars;
+	float Euro;
+	float Amout_Dollars;
+	float Amout_Euro;
+	cout << "\t\t\tEnter quantity Belarussian Rubl for changes: ";
+	cin >> Belarussian_Rubl;
+	cout << "\n";
+	cout << "\t\t\t\Course Dollars: ";
+	cin >> Dollars;
+	cout << "\t\t\t\Course Euro: ";
+	cin >> Euro;
+	cout << "\n";
+	Amout_Dollars = Belarussian_Rubl/Dollars;
+	Amout_Euro = Belarussian_Rubl/Euro;
+	cout << "\t\t\t\tAmout_Dollars: " << Amout_Dollars;
+	cout << "\n";
+	cout << "\t\t\t\tAmout_Euro: " << Amout_Euro;
+	cout << "\n";
+}
