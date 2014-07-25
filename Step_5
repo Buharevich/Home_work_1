@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+void main()
+{
+	float chislo_1;
+	float chislo_2;
+	float chislo_3;
+	float clojenie;
+	float ymnojenie;
+	cout << "\t\t\t\tVvedite pervoe chislo: ";
+	cin >> chislo_1;
+	cout << "\n";
+	cout << "\t\t\t\tVvedite vtoroe chislo: ";
+	cin >> chislo_2;
+	cout << "\n";
+	cout << "\t\t\t\tVvedite tretee chislo: ";
+	cin >> chislo_3;
+	cout << "\n";
+	clojenie = chislo_1 + chislo_2 + chislo_3;
+	ymnojenie = chislo_1*chislo_2*chislo_3;
+	cout << "\t\t\t\tClojenie: " << clojenie << " Ymnojenie: " << ymnojenie << "\n\n";
+}
