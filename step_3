@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+void main(){
+	{
+		std::cout << "\"To be or not to be\"\n";
+		cout << "\\ Shakespeare \\" << endl;
+		system("PAUSE");
+	}
+}
